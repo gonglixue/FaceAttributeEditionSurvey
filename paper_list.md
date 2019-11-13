@@ -1,7 +1,7 @@
 ### 综述
 一般分类人脸属性分析、人脸属性操作两步（FAE, FAM）
-FAE: 相当于分类检测，检测是否具有某种属性（如戴眼镜）
-FAM：添加或移除某种属性
+* FAE: 相当于分类检测，检测是否具有某种属性（如戴眼镜）
+* FAM：添加或移除某种属性
 
 FAE可分为两种方法：基于局部的、基于整体的
 * 局部：先给人脸每个位置定位，然后提取局部特征用于识别。定位的过程又可以是独立的或端到端的。独立的方法包括很多现有的人脸关键点检测、人脸语义分割
@@ -16,8 +16,10 @@ FAM主要基于生成模型。根据是否映入额外的条件信息。主要�
 
 #### deep FAE
 * 2014-CVPR: PANDA: Pose Aligned Networks for Deep Attribute Modeling\[[paper](
-http://openaccess.thecvf.com/content_cvpr_2014/papers/Zhang_PANDA_Pose_Aligned_2014_CVPR_paper.pdf)\]\[[CaffeCode](https://github.com/facebookarchive/pose-aligned-deep-networks)\]
-	- `bounding box->many poselets`, `combine global&local`, `SVM`
+http://openaccess.thecvf.com/content_cvpr_2014/papers/Zhang_PANDA_Pose_Aligned_2014_CVPR_paper.pdf)\]
+    * contributes:
+    * pros:
+    * cons:
 * 2015-ICCV: Deep Learning Face Attributes in the Wild. \[[paper](
 https://www.cv-foundation.org/openaccess/content_iccv_2015/papers/Liu_Deep_Learning_Face_ICCV_2015_paper.pdf)\]
 * 2017-CVPR: Improving facial attribute prediction using semantic segmentation\[[paper]()\]
@@ -45,7 +47,5 @@ https://link.springer.com/epdf/10.1007/s11263-019-01210-3?author_access_token=Kk
 #### CelebA
 #### LFWA
 * 40 labeled attributes
-#### Attributes25K
-#### Berkeley Attributes of People Dataset
 
 ### Non-learning methods
