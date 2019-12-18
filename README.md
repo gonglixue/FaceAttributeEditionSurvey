@@ -20,8 +20,13 @@ http://openaccess.thecvf.com/content_cvpr_2014/papers/Zhang_PANDA_Pose_Aligned_2
 	- `bounding box->many poselets`, `combine global&local`, `SVM`
 * 2015-ICCV: Deep Learning Face Attributes in the Wild. \[[paper](
 https://www.cv-foundation.org/openaccess/content_iccv_2015/papers/Liu_Deep_Learning_Face_ICCV_2015_paper.pdf)\]
+<<<<<<< HEAD
 	- `coarse-to-fine face localization`, `feature extraction`, `SVM`
 * 2017-CVPR: Improving facial attribute prediction using semantic segmentation\[[paper]()\]
+=======
+* 2017-CVPR: Improving facial attribute prediction using semantic segmentation\[[paper](https://arxiv.org/abs/1704.08740)\]\[[pytorchCode-notOfficial](https://github.com/nbansal90/Facial_attribute_segmentation)\]
+	- `region-based pooling`, `Semantic Segmentation-based Gating`
+>>>>>>> ffd7d7a76e66c1ce4951ed707dd4bea1bdb23c75
 * 2018-Trans on Affective Computing: Segment-based methods for facial attribute detection from partial faces\[[paper]()\]
 * 2016-ECCV: Moon: A mixed objective optimization network for the recognition of facial attributes\[[paper]()\]
 * 2017-AAAI: Attributes for improved attributes: a multi-task network utilizing implicit and explicit relationships for facial attribute classification.\[[paper]()\]
