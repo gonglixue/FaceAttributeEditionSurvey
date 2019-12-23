@@ -15,7 +15,7 @@ FAM主要基于生成模型。根据是否映入额外的条件信息，主要�
 
 ### FAE&FAM Paper List
 
-#### deep FAE
+#### 1. deep FAE
 * 2014-CVPR: PANDA: Pose Aligned Networks for Deep Attribute Modeling\[[paper](
 http://openaccess.thecvf.com/content_cvpr_2014/papers/Zhang_PANDA_Pose_Aligned_2014_CVPR_paper.pdf)\]\[[CaffeCode](https://github.com/facebookarchive/pose-aligned-deep-networks)\]
 	- `bounding box->many poselets`, `combine global&local`, `SVM`
@@ -26,11 +26,13 @@ https://www.cv-foundation.org/openaccess/content_iccv_2015/papers/Liu_Deep_Learn
 	- `region-based pooling`, `Semantic Segmentation-based Gating`
 * 2018-Trans on Affective Computing: Segment-based methods for facial attribute detection from partial faces\[[paper]()\]
 	- To deal with the cases with partial faces.
-* 2016-ECCV: Moon: A mixed objective optimization network for the recognition of facial attributes\[[paper]()\]
+* 2016-ECCV: Moon: A mixed objective optimization network for the recognition of facial attributes\[[paper](https://arxiv.org/pdf/1603.07027.pdf)\]\[[mxnetCode](https://github.com/tornadomeet/mxnet-face#face-attribute-prediction)\]
+	- Motivation: Multi-task is beneficial. Multi-objective training is difficult to perform data balance.
+	- Contribution: domain-adapted multitask loss function.
 * 2017-AAAI: Attributes for improved attributes: a multi-task network utilizing implicit and explicit relationships for facial attribute classification.\[[paper]()\]
 * 2018-CVPR: Partially shared multi-task convolutional neural network with local constraint for face attribute learning.\[[paper]()\]
 
-#### deep FAM
+#### 2. deep FAM
 
 
 
@@ -47,11 +49,11 @@ https://link.springer.com/epdf/10.1007/s11263-019-01210-3?author_access_token=Kk
 ---
 
 ### Dataset & Benchmark
-#### CelebA
-#### LFWA
+#### 1. CelebA
+#### 2. LFWA
 * 40 labeled attributes
-#### Attributes25K
-#### Berkeley Attributes of People Dataset
+#### 3. Attributes25K
+#### 4. Berkeley Attributes of People Dataset
 
 ---
 ### Non-learning methods
