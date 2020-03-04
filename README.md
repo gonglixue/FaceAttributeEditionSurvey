@@ -57,3 +57,10 @@ https://link.springer.com/epdf/10.1007/s11263-019-01210-3?author_access_token=Kk
 
 ---
 ### Non-learning methods
+
+---
+### Other Interesting Portrait Special Effects
+* 2019-ICCV Deep Single-Image Portrait Relighting\[[pytorchCode](
+https://github.com/zhhoper/DPR)
+]\[[paper&dataset](
+https://zhhoper.github.io/)\]
