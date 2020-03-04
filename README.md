@@ -29,8 +29,11 @@ https://www.cv-foundation.org/openaccess/content_iccv_2015/papers/Liu_Deep_Learn
 * 2016-ECCV: Moon: A mixed objective optimization network for the recognition of facial attributes\[[paper](https://arxiv.org/pdf/1603.07027.pdf)\]\[[mxnetCode](https://github.com/tornadomeet/mxnet-face#face-attribute-prediction)\]
 	- Motivation: Multi-task is beneficial. Multi-objective training is difficult to perform data balance.
 	- Contribution: domain-adapted multitask loss function.
-* 2017-AAAI: Attributes for improved attributes: a multi-task network utilizing implicit and explicit relationships for facial attribute classification.\[[paper]()\]
-* 2018-CVPR: Partially shared multi-task convolutional neural network with local constraint for face attribute learning.\[[paper]()\]
+* 2017-AAAI: Attributes for improved attributes: a multi-task network utilizing implicit and explicit relationships for facial attribute classification.\[[paper](https://arxiv.org/abs/1604.07360)\]
+	- attributes grouping manually 
+* 2018-CVPR: Partially shared multi-task convolutional neural network with local constraint for face attribute learning.\[[paper](http://openaccess.thecvf.com/content_cvpr_2018/papers/Cao_Partially_Shared_Multi-Task_CVPR_2018_paper.pdf)\]
+	- identity information, multi-task, information flow between tasks
+* 2018-IJCAI: Harnessing synthesized abstraction images to improve facial attribute recognition\[[paper](http://www.yugangjiang.info/publication/18IJCAI-FacialAttributes.pdf)\]\[[caffeCode](https://github.com/TencentYoutuResearch/FaceAttribute-FAN)\]
 
 #### 2. deep FAM
 
