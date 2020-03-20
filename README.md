@@ -36,8 +36,34 @@ https://www.cv-foundation.org/openaccess/content_iccv_2015/papers/Liu_Deep_Learn
 * 2018-IJCAI: Harnessing synthesized abstraction images to improve facial attribute recognition\[[paper](http://www.yugangjiang.info/publication/18IJCAI-FacialAttributes.pdf)\]\[[caffeCode](https://github.com/TencentYoutuResearch/FaceAttribute-FAN)\]
 
 #### 2. deep FAM
+* 2017-CVPR: Learning residual images for face attribute manipulation(ResGAN)\[[tfCode](
+https://github.com/MingtaoGuo/Learning-Residual-Images-for-Face-Attribute-Manipulation/blob/master/Face_Attribute_Manipulation.py)
+]\[[paper](
+https://arxiv.org/pdf/1612.05363.pdf)\]
+	- GAN, dual inverse manipulation, residual learning, focuses on the
+attribute-specific face area, metric
+* 2017-CVPR: Age progression/regression by conditional adversarial autoencoder\[[tfCode](
+https://github.com/ZZUTK/Face-Aging-CAAE)
+]\[[paper](
+http://web.eecs.utk.edu/~zzhang61/docs/papers/2017_CVPR_Age.pdf)\]
+	- GAN, conditional latent vector, impose prior distribution on latent vector, one-hot age label
+* 2016-NIPSW: Invertible Conditional GANS(IcGANs)\[[torchCode](
+https://github.com/Guim3/IcGAN)
+]\[[paper](
+https://arxiv.org/pdf/1611.06355.pdf)\]
+	- change multiple attributes
+* 2016-ICML: Autoencoding beyond pixels using a learned similarity metric\[[torchCode](
+https://github.com/daQuincy/VAE-GAN-Autoencoding-Beyond-Pixels-Using-a-Similarity-Metric)
+]\[[paper](
+https://arxiv.org/pdf/1512.09300.pdf)\]
 
-
+* 2018-CVPR StarGAN: Unified generative
+adversarial networks for multi-domain image-to-image
+translationc\[[PytorchCode](
+https://github.com/yunjey/stargan)
+]\[[paper](
+https://zpascal.net/cvpr2018/Choi_StarGAN_Unified_Generative_CVPR_2018_paper.pdf)\]
+	- multi-dataset multi-domain, domain vector, cycle consistent
 
 * 2018-ECCV GANimation: Anatomically-aware Facial Animation from a Single Image\[[code](
 https://github.com/albertpumarola/GANimation.git)
