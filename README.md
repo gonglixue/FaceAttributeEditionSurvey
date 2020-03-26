@@ -56,7 +56,11 @@ https://github.com/daQuincy/VAE-GAN-Autoencoding-Beyond-Pixels-Using-a-Similarit
 https://arxiv.org/pdf/1512.09300.pdf)\]
 
 * 2017-NIPS: Fader Networks: Manipulating Images by Sliding Attributes\[[PytorchCode](https://github.com/facebookresearch/FaderNetworks)]\[[paper](https://arxiv.org/abs/1706.00409\]
-	- alter attributes continuously, latent representation
+	- alter attributes continuously, latent representation, disentangle
+
+* 2017-BMVC: GeneGAN: Learning Object Transfiguration and Attribute Subspace from Unpaired Data\[[tfCode](https://github.com/Prinsphield/GeneGAN)]\[[paper](https://prinsphield.github.io/publication/BMVC-2017-GeneGAN\]
+	- conditioned on reference examples, Object Transfiguration, exchange attributes, disentangle
+
 
 * 2018-CVPR StarGAN: Unified generative
 adversarial networks for multi-domain image-to-image
