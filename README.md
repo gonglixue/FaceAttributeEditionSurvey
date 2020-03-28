@@ -55,10 +55,10 @@ https://github.com/daQuincy/VAE-GAN-Autoencoding-Beyond-Pixels-Using-a-Similarit
 ]\[[paper](
 https://arxiv.org/pdf/1512.09300.pdf)\]
 
-* 2017-NIPS: Fader Networks: Manipulating Images by Sliding Attributes\[[PytorchCode](https://github.com/facebookresearch/FaderNetworks)]\[[paper](https://arxiv.org/abs/1706.00409\]
+* 2017-NIPS: Fader Networks: Manipulating Images by Sliding Attributes\[[PytorchCode](https://github.com/facebookresearch/FaderNetworks)]\[[paper](https://arxiv.org/abs/1706.00409)\]
 	- alter attributes continuously, latent representation, disentangle
 
-* 2017-BMVC: GeneGAN: Learning Object Transfiguration and Attribute Subspace from Unpaired Data\[[tfCode](https://github.com/Prinsphield/GeneGAN)]\[[paper](https://prinsphield.github.io/publication/BMVC-2017-GeneGAN\]
+* 2017-BMVC: GeneGAN: Learning Object Transfiguration and Attribute Subspace from Unpaired Data\[[tfCode](https://github.com/Prinsphield/GeneGAN)]\[[paper](https://prinsphield.github.io/publication/BMVC-2017-GeneGAN)\]
 	- conditioned on reference examples, Object Transfiguration, exchange attributes, disentangle
 
 
@@ -67,8 +67,11 @@ adversarial networks for multi-domain image-to-image
 translation\[[PytorchCode](https://github.com/yunjey/stargan)]\[[paper](https://zpascal.net/cvpr2018/Choi_StarGAN_Unified_Generative_CVPR_2018_paper.pdf)\]
 	- multi-dataset multi-domain, domain vector, cycle consistent
 
-* 2018-ECCV: SaGAN: Generative Adversarial Network with Spatial Attention for Face Attribute Editing\[[PytorchCode](https://github.com/elvisyjlin/SpatialAttentionGAN)]\[[paper](http://openaccess.thecvf.com/content_ECCV_2018/papers/Gang_Zhang_Generative_Adversarial_Network_ECCV_2018_paper.pdf)\]
+* 2018-ECCV: SaGAN: Generative Adversarial Network with Spatial Attention for Face Attribute Editing\[[PytorchCode](https://github.com/Prinsphield/ELEGANT)]\[[paper](https://github.com/Prinsphield/ELEGANT)\]
 	- spatial attention
+
+* 2018-ECCV: Elegant: Exchanging latent encodings with gan for transferring multiple face attributes.\[[PytorchCode](https://github.com/Prinsphield/ELEGANT)]\[[paper](https://github.com/Prinsphield/ELEGANT)\]
+	- transfer multiple attributes, divide latent codes into different parts(iterative training strategy), high quality, disentangle, multi-scale descriminator
 
 * 2018-ECCV GANimation: Anatomically-aware Facial Animation from a Single Image\[[code](
 https://github.com/albertpumarola/GANimation.git)
